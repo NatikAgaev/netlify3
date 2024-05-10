@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul.navi {
+    list-style-type: none;
+    margin: 10px 0px 20px 10px;
+}
+
+ul.navi li {
+    display: inline-block;
+}
+
+ul.navi li:hover {
+    color: purple;
+    box-shadow: 4px 3px 5px red;
+    scale: 1.2;
+    transition: all 0.5s;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0px 0px 20px 10px;
+}
+
+section {
+    margin: 0px 0px 10px 10px;
+}
+
+table.catalog {
+    border: 1px solid black;
+    width: 80%;
+    max-width: 1140px;
+    min-width: 720px;
+}
+
+table.catalog th {
+    border: 1px solid grey;
+    margin-bottom: 10px;
+}
+
+table.catalog td {
+    border: 2px solid purple;
+    text-align: center;
+    width: 150px;
+}
+
+table.catalog img {
+    width: 50%;
+    object-fit: cover;
+}
